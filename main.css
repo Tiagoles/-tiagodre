@@ -1,0 +1,472 @@
+/*GERAIS*/
+body{
+    font-family: 'roboto', sans-serif;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+p,li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Nav*/
+header, .navbar{
+    background-color: #353d41;
+}
+#nav-container{
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+.letter-logo{
+    margin-left: 5px;
+    color:#1877f2;
+
+}
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-nav,.nav-item{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .navbar-link{
+    padding: 1rem .8rem;
+  
+}
+
+/*SLIDER*/
+.container-fluid{
+    padding: 0;
+}
+.carousel-inner, .carousel-item{
+    height: 90vh;
+    margin-bottom: 10px;
+}
+.carousel-caption{
+    margin-bottom: 15px;
+}
+.carousel-caption h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.carousel-caption p{
+    font-size: 16px;
+    font-weight: 300px;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+.main-btn{
+    background-color: #65daf9;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+.main-btn:hover{
+    border-color: #83e4ff;
+    color: white;
+    background: transparent;
+}
+#about-area{
+    background-color: #f9f9f9;
+}
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    transition: 2s;
+}
+.main-title::after{
+    content: "";
+    border-top: 2px solid #444;
+    width: 15%;
+    position: absolute;
+    top:810px;
+    left: 42.5%;
+}
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+#about-list li{
+    line-height: 30px;
+}
+#about-list i{
+    color:#1877f2;
+    margin-right: 15px;
+}
+/*SERVICOS*/
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-box i, .service-box h4{
+    transition: .5s;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.service-box:hover > i, .service-box:hover > h4{
+    color: #1877f2;
+}
+.circle-box div{
+    padding: 0 40px;
+}
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+#data-area p{
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0 0 0;
+}
+#data-area{
+    background-image: url(./curso_bootstrap/img/cidadeparallax.png);
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+}
+/*TEAM-AREA*/
+#title-for-team-area:after {
+    content: '';
+    height: 1px;
+    width: 125px;
+    background: black; 
+    display:block;
+    margin-left: 50px;
+    margin-top: 250vh;
+}
+.card{
+    background: #f9f9f9;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    border: 1px solid grey;
+    border-radius: 2px;
+    text-align: center;
+}
+/*Trabalhe conosco*/
+#apply-area{
+    height: 500px;
+}
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+#company-img{
+    background-image: url(./curso_bootstrap/img/empresa.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+}
+#patern-img h4, #patern-img p{
+    color: #FFF;
+}
+#patern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#patern-img p{
+    margin-bottom: 20px;
+}
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin: 30px auto 0 auto;
+    background-color: transparent;
+    border-color: #FFF;
+    transition: .5s;
+}
+#apply-btn:hover{
+    border-color: #65daf9;
+    background-color: #65daf9;
+}
+#patern-img{
+    background-image: url(./curso_bootstrap/img/pattern.png);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+    background-attachment: fixed;
+}
+/*Portfolio*/
+.project-box{
+    margin-bottom: 30px;
+}
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#portfolio-area .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover{
+    color: #FFF;
+    background: #65daf9;
+    border-color: #65daf9; ;
+}
+/*Newsletter*/
+#news-area{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+#news-area p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#news-area h3{
+    font-size: 36px;
+    margin-top: -10px;
+}
+#email-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65daf9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;  
+}
+#news-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #65daf9;
+    background-color: #65daf9;
+    text-transform: uppercase;
+    color: #FFF;
+    height: 40px;
+    width: 20%;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+#news-btn:hover{
+    background-color: #fff;
+    color: #65daf9;
+}
+/*Call-action*/
+#call-area{
+    background: #65daf9;
+    text-transform: uppercase;
+}
+#call-area .row{
+    display: block ;
+    text-align: center;
+}
+#call-area p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    line-height: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+#call-area #call-btn{
+    background-color: #FFF;
+    color: #65daf9;
+    font-weight: bold;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
+#section-contact{
+    background-color: #f9f9f9;
+}
+#contact-area{
+    text-align: center;
+}
+.icon-phone, .icon-envelope, .icon-map{
+    font-size: 36px;
+}
+#title-for-contact{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    transition: 2s;
+}
+#title-for-contact:after{
+    content: "";
+    border-top: 2px solid #444;
+    width: 15%;
+    position: absolute;
+    margin-top: 50px;
+    right: 655px;
+}
+.icon-phone, .icon-map, .icon-envelope{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+}
+/* .contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+} */
+.contact-tile{
+    color: #65daf9;
+    font-weight: bold;
+    font-size: 16px;
+}
+#msg-box{
+    margin-left: 700px;
+}
+#msg-box form {
+    margin-top: 50px;
+    width: 470px;
+    height: 50px;
+}
+ 
+#msg-box p{
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 24px;
+}
+.form-control{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+#button-form{
+    width: 150px;
+    height: auto;
+    margin-bottom: 60px;
+}
+#copy-area{
+    background-color: #f9f9f9;
+    bottom: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+#text-copy-area{
+    margin-top: 10px;
+ 
+}
+/*Responsive*/
+@media (max-width:768px) {
+    /*Geral*/
+    .container{
+        padding: 20px 0;
+    }
+    /*Slider*/
+    #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item{
+        height: auto;
+    }
+    #carouselExampleIndicators .carousel-caption h2{
+        font-size:28px;
+    }
+    #carouselExampleIndicators .carousel-caption p{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .carousel-caption{
+        left: 10%;
+        right: 10%;
+    }
+    #about-area .container .row .col-md-6 .img-fluid{
+        margin-top: 260px;
+    }
+    .circle-box{
+        padding: 0 10px;
+    }
+    #data-area p{
+        font-size: 16px;
+    }
+    #team-area h5{
+        font-size: 14px;
+    }
+    #team-area p{
+        font-size: 12px;
+    }
+    #apply-area .apply-box{
+        padding: 50px 25px;
+    }
+    #news-area p{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #email-input{
+        width: 70%;
+    }
+    #call-area p{
+        font-size: 16px;
+    }
+    #call-btn{
+        font-size: 16px;
+    }
+    #call-area{
+        margin-top: 30px;
+    }
+    #call-area .container{
+        padding: 30px;
+    }
+    #msg-box{
+        margin-left: 400px;
+    }
+    #msg-box p{
+        margin-left: 100px;
+    }
+    #contact-form form{
+        width: 280px;
+    }
+    #button-form{
+        font-size: 14px;
+    }
+}
